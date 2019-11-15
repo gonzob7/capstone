@@ -13,4 +13,28 @@ border: 0;
 
 .fa {
   padding: 5px;
+  color: white;
+}
+
+
+#more {
+    margin-top: 2em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    overflow:hidden;
+    box-shadow: inset 0 0 100px black;
+    background: black;
+    padding: 1em 0 4em 0;
+    text-align: center;
+}
+
+#more img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .50;
 }
